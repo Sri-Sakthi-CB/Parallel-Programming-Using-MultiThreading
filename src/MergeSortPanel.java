@@ -43,6 +43,8 @@ public class MergeSortPanel extends JPanel {
                 int[] sortedArray = ParallelMergeSort.parallelMergeSort(inputArray, numThreads);
 
                 // Display the sorted result in the resultArea
+                // Display the sorted result in the resultArea
+                
                 resultArea.setText("Sorted Array:\n" + Arrays.toString(sortedArray));
             }
         });
